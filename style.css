@@ -1,0 +1,56 @@
+body {
+	background: rgb(81 221 209);
+}
+div {
+	width: 70%;
+	background: white;
+	text-align: center;
+	margin: auto;
+	padding: 10px;
+	border-radius: 5px;
+}
+fieldset {
+	width: 80%;
+	margin: auto;
+	text-align: left;
+	border-color: rgb(81 221 209);
+	border-style: solid;
+	color: rgb(81 221 209);
+}
+input, select, textarea {
+	border-color: rgb(81 221 209);
+	color: rgb(81 221 209);
+	border-radius: 4px;
+	padding: 7px;
+	display: block;
+	margin: auto;
+	margin-bottom: 8px;
+	width: 80%;
+	border-style: solid;
+	margin-top: 12px;
+}
+select, textarea {
+	width: 85%;
+	border-width: 2px;
+	color: rgb(81 221 209);
+}
+
+.g {
+	display: inline-block;
+	width: 10px;
+	margin-left: 7%;
+	color: rgb(81 221 209);
+}
+.mi {
+	width: 25%;
+	background-color: rgb(81 221 209);
+	color: white;}
+.kv {
+	display: inline-block;
+	width: 70px;
+	margin-left: 1px;
+	color: rgb(81 221 209);
+}
+label {
+	color: rgb(81 221 209);
+}

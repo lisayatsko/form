@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+</head>
+<body>
+	<div>
+		<h1>Анкета ученика</h1>
+		<fieldset>
+			<legend>Контактная информация</legend>
+			<input type="text" name="" placeholder="Введите имя">
+			<input type="number" name="" placeholder="Введите номер телефона">
+			<input type="email" name="" placeholder="Введите email">
+		</fieldset>
+		<fieldset>
+			<legend>Личная информация</legend>
+			<label for="age">Ваш возраст</label>
+			<input id="age" type="number" name="">
+			<label for="date">Дата рождения</label>
+			<input id="date" type="date" name="">
+			<label>По какому курсу занимаетесь</label>
+			<select>
+				<option>web</option>
+				<option>pythot</option>
+				<option>scratch</option>
+				<option>desing</option>
+			</select>
+		</fieldset>
+		<fieldset>
+			<legend>Обратная связь</legend>
+			<label>Посоветуете ли Вы нас друзьям?</label> <br>
+
+			<div>
+
+				<input type="radio" name="a" class="g" id="y">
+				<label for="y">Да</label>
+
+				<input type="radio" name="a" class="g" id="n">
+				<label for="n">Нет</label>
+
+				<input type="radio" name="a" class="g" id="s">
+				<label for="s">Наверно<label>
+
+			</div>
+
+			<label>Оставьте свой коментарий:)</label>
+			<textarea></textarea>
+		</fieldset>
+		<input class="kv" type="checkbox" name="">
+		<label>Расрешить обработку данных</label>
+		<input class="kv" type="checkbox" name="">
+		<label> Отправлять новости на почту</label>
+		<input type="submit" name="" class="mi">
+	</div>
+</body>
+</html>
